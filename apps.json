@@ -1,0 +1,43 @@
+{
+  "name": "beam",
+  "identifier": "dev.beam.source",
+  "subtitle": "beam remote desktop for iPhone and iPad",
+  "iconURL": "https://raw.githubusercontent.com/jasfertoh/beam-releases/main/icon.png",
+  "tintColor": "#4ADE80",
+  "apps": [
+    {
+      "name": "beam",
+      "bundleIdentifier": "dev.beam.viewer",
+      "developerName": "Jasfer",
+      "subtitle": "Your Mac's screen, with low latency",
+      "localizedDescription": "The iPhone and iPad viewer for beam: hardware video decoding, sound, trackpad-style touch and a key bar, end-to-end encrypted to your Mac.",
+      "iconURL": "https://raw.githubusercontent.com/jasfertoh/beam-releases/main/icon.png",
+      "tintColor": "#4ADE80",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "beam connects to your Mac when it is on the same network."
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.125",
+          "buildVersion": "125",
+          "date": "2026-11-01T09:28:14Z",
+          "localizedDescription": "- iOS: release.sh publishes to a SideStore source (jasfertoh/beam-releases)\n- Disconnect button, Mac switcher, and ending sessions from beam's menu\n- Frame acks: see backlog in the kernel send buffer, not just our own queue\n- Keep remembered devices across restarts: forget a token only on 4007/4008\n- Clipboard: images both ways, as PNG\n- Touch: coasting two-finger scroll, three-finger swipes (\u2303 + arrow) and tap (middle-click)\n- Key bar: del, home, end, page up/down and F1\u2013F12; the row scrolls, paste and hide stay pinned\n- Two-finger scroll: decide scroll or pinch once per gesture\n- Move beam's own port from 8787 to 8790\n- iOS: password-sheet banner and display picker; BEAM_DIR for test engines\n- iOS app: cursor drawn on the device, clipboard both ways, file transfer\n- iOS: example address no longer shows the home IP\n- Home-network path beside the tunnel, Auto resolution, cursor kept in fullscreen\n- End-to-end encryption for the iOS app; HSTS behind the tunnel\n- Cloudflare Access: beam verifies the Access token; iOS sends a service token\n- Cloudflare named tunnel: Beam.app tunnel mode, iOS system trust for real certificates\n- Input fixes: 'a' no longer sticks, Caps Lock toggles the Mac's lock, games get relative mouse\n- Native iPhone/iPad viewer: pinned TLS WebSocket, hardware decode to AVSampleBufferDisplayLayer, Opus audio, trackpad-style touch, key bar and hardware keyboard; host labels it in the device list",
+          "downloadURL": "https://github.com/jasfertoh/beam-releases/releases/download/ios-v0.1.125/beam.ipa",
+          "size": 304028,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "version": "0.1.125",
+      "versionDate": "2026-11-01T09:28:14Z",
+      "versionDescription": "- iOS: release.sh publishes to a SideStore source (jasfertoh/beam-releases)\n- Disconnect button, Mac switcher, and ending sessions from beam's menu\n- Frame acks: see backlog in the kernel send buffer, not just our own queue\n- Keep remembered devices across restarts: forget a token only on 4007/4008\n- Clipboard: images both ways, as PNG\n- Touch: coasting two-finger scroll, three-finger swipes (\u2303 + arrow) and tap (middle-click)\n- Key bar: del, home, end, page up/down and F1\u2013F12; the row scrolls, paste and hide stay pinned\n- Two-finger scroll: decide scroll or pinch once per gesture\n- Move beam's own port from 8787 to 8790\n- iOS: password-sheet banner and display picker; BEAM_DIR for test engines\n- iOS app: cursor drawn on the device, clipboard both ways, file transfer\n- iOS: example address no longer shows the home IP\n- Home-network path beside the tunnel, Auto resolution, cursor kept in fullscreen\n- End-to-end encryption for the iOS app; HSTS behind the tunnel\n- Cloudflare Access: beam verifies the Access token; iOS sends a service token\n- Cloudflare named tunnel: Beam.app tunnel mode, iOS system trust for real certificates\n- Input fixes: 'a' no longer sticks, Caps Lock toggles the Mac's lock, games get relative mouse\n- Native iPhone/iPad viewer: pinned TLS WebSocket, hardware decode to AVSampleBufferDisplayLayer, Opus audio, trackpad-style touch, key bar and hardware keyboard; host labels it in the device list",
+      "downloadURL": "https://github.com/jasfertoh/beam-releases/releases/download/ios-v0.1.125/beam.ipa",
+      "size": 304028
+    }
+  ],
+  "news": []
+}
